@@ -78,13 +78,13 @@ For a detailed example of how to use JSON Form, check out the <a href="https://g
 
 If you'd like to contribute to this package, please follow these guidelines:
 
-Fork the repository:
+### Fork the repository
 
-- Create a new branch for your feature or bugfix.<br>
-- Write tests for your code.<br>
-- Implement your feature or fix the bug.<br>
-- Run the tests.<br>
-- Submit a pull request.<br>
+Create a new branch for your feature or bugfix.
+Write tests for your code.
+Implement your feature or fix the bug.
+Run the tests.
+Submit a pull request.
 
 ### Issues
 
@@ -96,6 +96,6 @@ This package is released under the MIT License. See <a href="https://github.com/
 
 ### Author
 
-JSON Form is maintained by <a href="https://github.com/rnp0728">Rudra Narayan Panda</a>. Feel free to reach out for any questions or assistance.
+JSON Form is maintained by Rudra Narayan Panda. Feel free to reach out for any questions or assistance.
 
 Happy coding!
