@@ -27,7 +27,7 @@ class _TestPageState extends State<TestPage> {
               padding: const EdgeInsets.all(10.0),
               margin: const EdgeInsets.all(10.0),
               isMultiForm: false,
-              formData: const {
+              json: const {
                 'firstname': {
                   'type': 'text', // text / dropdown
                   'label': 'First Name',

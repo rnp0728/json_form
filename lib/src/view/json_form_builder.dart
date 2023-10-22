@@ -12,7 +12,7 @@ class JsonForm extends StatefulWidget {
   final BorderRadiusGeometry? borderRadius;
   final EdgeInsetsGeometry? padding;
   final EdgeInsetsGeometry? margin;
-  final Map<String, dynamic> formData;
+  final Map<String, dynamic> json;
   // sample format - {
   //   'firstname': {
   //     'type': 'text', // text / dropdown / date / time
@@ -27,7 +27,7 @@ class JsonForm extends StatefulWidget {
   final bool cleanAfterSave;
   const JsonForm({
     super.key,
-    required this.formData,
+    required this.json,
     this.backgroundColor = Colors.white,
     this.borderRadius,
     this.padding,
@@ -64,7 +64,7 @@ class _JsonFormState extends State<JsonForm> {
       setParameters(contraints.maxWidth);
       return BlocProvider(
         create: (context) => JsonFormCubit(
-          formData: widget.formData,
+          formData: widget.json,
         )..initialFormSetup(),
         child: BlocBuilder<JsonFormCubit, JsonFormState>(
           builder: (context, state) {
