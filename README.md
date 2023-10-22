@@ -20,7 +20,7 @@ To use JSON Form in your Flutter project, add it to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  json_form: ^x.x.x
+  json_form: ^0.0.1
 ```
 
 ### Usage
@@ -72,30 +72,30 @@ You can customize your form's appearance and behavior by passing various options
 
 ### Example
 
-For a detailed example of how to use JSON Form, check out the example folder in the package repository.
+For a detailed example of how to use JSON Form, check out the <a href="https://github.com/rnp0728/json_form/example">example folder</a> in the package repository.
 
 ### Contributing
 
 If you'd like to contribute to this package, please follow these guidelines:
 
-### Fork the repository
+Fork the repository:
 
-Create a new branch for your feature or bugfix.
-Write tests for your code.
-Implement your feature or fix the bug.
-Run the tests.
-Submit a pull request.
+- Create a new branch for your feature or bugfix.<br>
+- Write tests for your code.<br>
+- Implement your feature or fix the bug.<br>
+- Run the tests.<br>
+- Submit a pull request.<br>
 
 ### Issues
 
-If you find any issues or have suggestions, please open an issue here.
+If you find any issues or have suggestions, please open an issue <a href="https://github.com/rnp0728/json_form/issues">here</a>.
 
 ### License
 
-This package is released under the MIT License. See LICENSE for more details.
+This package is released under the MIT License. See <a href="https://github.com/rnp0728/json_form/blob/main/LICENSE">LICENSE</a> for more details.
 
 ### Author
 
-JSON Form is maintained by Rudra Narayan Panda. Feel free to reach out for any questions or assistance.
+JSON Form is maintained by <a href="https://github.com/rnp0728">Rudra Narayan Panda</a>. Feel free to reach out for any questions or assistance.
 
 Happy coding!
