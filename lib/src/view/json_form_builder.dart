@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:json_form/src/cubit/json_form_cubit.dart';
-import 'package:json_form/src/theme/theme.dart';
-import 'package:json_form/src/view/form_fields.dart';
+import 'package:json_to_forms/src/cubit/json_form_cubit.dart';
+import 'package:json_to_forms/src/theme/theme.dart';
+import 'package:json_to_forms/src/view/form_fields.dart';
 
 enum LayoutType { x5, x4, x3, x2, x1 }
 

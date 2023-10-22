@@ -1,10 +1,10 @@
-name: json_form
+name: json_to_forms
 description: A FLutter package which can be used to create flutter forms with the use of JSON.
 version: 0.0.1
-homepage: https://github.com/rnp0728/json_form
+homepage: https://github.com/rnp0728/json_to_forms
 
 environment:
-  sdk: '>=3.1.1 <4.0.0'
+  sdk: ">=3.1.1 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:

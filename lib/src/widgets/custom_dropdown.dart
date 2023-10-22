@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:json_form/src/theme/theme.dart';
+import 'package:json_to_forms/src/theme/theme.dart';
 
 class CustomDropDown extends StatefulWidget {
   final String? value;
@@ -33,7 +33,6 @@ class _CustomDropDownState extends State<CustomDropDown> {
         borderRadius: BorderRadius.circular(6),
         value: widget.value,
         isExpanded: true,
-        
         icon: Icon(
           Icons.arrow_drop_down_circle_outlined,
           color: JsonFormTheme.green,

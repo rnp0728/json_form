@@ -1,11 +1,11 @@
 import 'package:intl/intl.dart';
-import 'package:json_form/json_form.dart';
-import 'package:json_form/src/helpers/helpers.dart';
-import 'package:json_form/src/theme/theme.dart';
-import 'package:json_form/src/widgets/custom_dropdown.dart';
-import 'package:json_form/src/widgets/custom_text_form_field.dart';
-import 'package:json_form/src/widgets/editable_string_list.dart';
-import 'package:json_form/src/widgets/responsive_container.dart';
+import 'package:json_to_forms/json_to_forms.dart';
+import 'package:json_to_forms/src/helpers/helpers.dart';
+import 'package:json_to_forms/src/theme/theme.dart';
+import 'package:json_to_forms/src/widgets/custom_dropdown.dart';
+import 'package:json_to_forms/src/widgets/custom_text_form_field.dart';
+import 'package:json_to_forms/src/widgets/editable_string_list.dart';
+import 'package:json_to_forms/src/widgets/responsive_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:multi_select_flutter/multi_select_flutter.dart';
@@ -183,10 +183,10 @@ class CustomFormField {
                     return Theme(
                       data: Theme.of(context).copyWith(
                         colorScheme: ColorScheme.light(
-                            primary: JsonFormTheme.focusColor,
+                          primary: JsonFormTheme.focusColor,
                           onPrimary: JsonFormTheme.white,
                           onSurface: JsonFormTheme.black,
-                            ),
+                        ),
                       ),
                       child: child!,
                     );

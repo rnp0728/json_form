@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:json_form/json_form.dart';
+import 'package:json_to_forms/json_to_forms.dart';
 
 class MyResponsiveContainer extends StatefulWidget {
   final LayoutType layout;
