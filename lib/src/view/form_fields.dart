@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:json_to_forms/json_to_forms.dart';
-import 'package:json_to_forms/src/cubit/json_form_cubit.dart';
-import 'package:json_to_forms/src/helpers/helpers.dart';
-import 'package:json_to_forms/src/theme/theme.dart';
-import 'package:json_to_forms/src/widgets/custom_form_field.dart';
+import 'package:form_kit/form_kit.dart';
+import 'package:form_kit/src/cubit/json_form_cubit.dart';
+import 'package:form_kit/src/helpers/helpers.dart';
+import 'package:form_kit/src/theme/theme.dart';
+import 'package:form_kit/src/widgets/custom_form_field.dart';
 
 class FormFields extends StatefulWidget {
   final Map<String, dynamic> formData;

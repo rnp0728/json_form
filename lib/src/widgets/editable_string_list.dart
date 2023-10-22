@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:json_to_forms/src/theme/theme.dart';
-import 'package:json_to_forms/src/widgets/custom_inkwell.dart';
-import 'package:json_to_forms/src/widgets/custom_text_form_field.dart';
+import 'package:form_kit/src/theme/theme.dart';
+import 'package:form_kit/src/widgets/custom_inkwell.dart';
+import 'package:form_kit/src/widgets/custom_text_form_field.dart';
 
 class EditableStringList extends StatefulWidget {
   final String label;

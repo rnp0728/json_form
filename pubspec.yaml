@@ -1,7 +1,7 @@
-name: json_to_forms
+name: form_kit
 description: A FLutter package which can be used to create flutter forms with the use of JSON.
 version: 0.0.1
-homepage: https://github.com/rnp0728/json_to_forms
+homepage: https://github.com/rnp0728/json_form
 
 environment:
   sdk: ">=3.1.1 <4.0.0"

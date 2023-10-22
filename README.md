@@ -1,7 +1,7 @@
 # JSON Form
 
-[![Pub Version](https://img.shields.io/pub/v/json_to_forms)](https://pub.dev/packages/json_to_forms)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rnp0728/json_to_forms/blob/main/LICENSE)
+[![Pub Version](https://img.shields.io/pub/v/form_kit)](https://pub.dev/packages/form_kit)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rnp0728/form_kit/blob/main/LICENSE)
 
 JSON Form is a Flutter package that simplifies the process of generating dynamic forms based on JSON input. With JSON Form, you can easily create forms with various field types, validation rules, and input formatters.
 
@@ -20,7 +20,7 @@ To use JSON Form in your Flutter project, add it to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  json_to_forms: ^0.0.1
+  form_kit: ^0.0.1
 ```
 
 ### Usage
@@ -30,7 +30,7 @@ To get started with JSON Form, follow these steps:
 Import the JSON Form package:
 
 ```dart
-import 'package:json_to_forms/json_to_forms.dart';
+import 'package:form_kit/form_kit.dart';
 ```
 
 Create a JSON configuration for your form:
@@ -72,7 +72,7 @@ You can customize your form's appearance and behavior by passing various options
 
 ### Example
 
-For a detailed example of how to use JSON Form, check out the <a href="https://github.com/rnp0728/json_to_forms/example">example folder</a> in the package repository.
+For a detailed example of how to use JSON Form, check out the <a href="https://github.com/rnp0728/form_kit/example">example folder</a> in the package repository.
 
 ### Contributing
 
@@ -88,11 +88,11 @@ Submit a pull request.
 
 ### Issues
 
-If you find any issues or have suggestions, please open an issue <a href="https://github.com/rnp0728/json_to_forms/issues">here</a>.
+If you find any issues or have suggestions, please open an issue <a href="https://github.com/rnp0728/form_kit/issues">here</a>.
 
 ### License
 
-This package is released under the MIT License. See <a href="https://github.com/rnp0728/json_to_forms/blob/main/LICENSE">LICENSE</a> for more details.
+This package is released under the MIT License. See <a href="https://github.com/rnp0728/form_kit/blob/main/LICENSE">LICENSE</a> for more details.
 
 ### Author
 

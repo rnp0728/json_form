@@ -15,7 +15,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  json_to_forms:
+  form_kit:
     path: ../
 
   flutter_lints: ^2.0.0
